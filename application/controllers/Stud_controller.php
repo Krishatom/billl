@@ -48,7 +48,7 @@
 
       public function update_student(){
 
-         echo '<script type="text/javascript"> alert("update_student")</script>';
+
          $this->load->model('Stud_Model');
 
          $data = array(
@@ -61,6 +61,7 @@
          $query = $this->db->get("stud");
          $data['records'] = $query->result();
          $this->load->view('Stud_view',$data);
+        //  echo '<script type="text/javascript"> alert("update_student")</script>';
       }
 
       public function delete_student() {

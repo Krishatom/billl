@@ -7,7 +7,7 @@
    </head>
 
    <body>
-      <a href ="http://localhost/bill/index.php/stud/add_view">Add</a>
+      <a href ="http://localhost/bill/billl/index.php/stud/add_view">Add</a>
 
       <table border = "1">
          <?php
